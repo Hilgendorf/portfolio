@@ -8,7 +8,7 @@ read -p "Please type in the folder you want it stored in: " passFolder #I am ask
 
 echo #Adding another line
 
-read -p "Now please type in the password you want to use: " wordPass #I am asking what password that they would like to use and storing that
+read -s -p "Now please type in the password you want to use: " wordPass #I am asking what password that they would like to use and storing that
 
 mkdir $passFolder #I am creating the folder
 
