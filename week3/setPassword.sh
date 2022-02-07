@@ -12,6 +12,6 @@ read -s -p "Now please type in the password you want to use: " wordPass #I am as
 
 mkdir $passFolder #I am creating the folder
 
-echo $wordPass | sha256sum > $passFolder/secret.txt #I am putting the password that they wanted to use into a txt file into the folder they wanted
+echo $wordPass > $passFolder/secret.txt #I am putting the password that they wanted to use into a txt file into the folder they wanted
 
 exit 0
