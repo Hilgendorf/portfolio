@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -s -p "Now please type in the password you want to use: " wordPass #I am asking what password that they would like to use and storing that
+read -s -p "For Access please type in the password: " wordPass #I am asking what password that they would like to use and storing that
 
 echo "$wordPass" | sha256sum > ./notpasswords/temp.txt # I stored their entered password into a temp file to be able to read it
 
